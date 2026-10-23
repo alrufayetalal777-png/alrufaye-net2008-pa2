@@ -6,3 +6,4 @@ Example: `python pa2.py PA2_sample.xml PA2_policy.yaml`
 Writes `audit.json` in the current directory and prints a summary.
 Devices without IDs are skipped; missing policy keys disable corresponding checks.
 The tool reports unknown roles, missing owners, down-interface limits and outdated OS versions.
+Exit codes: 0 for an audit, 1 for invalid inputs, 2 for incorrect arguments.
